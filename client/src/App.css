@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bree Serif", serif;
+}
+
+.react-modal {
+  padding: 30px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 916px;
+  height: 530px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .react-modal {
+    width: 90%;
+    height: 80vh;
+  }
+}
