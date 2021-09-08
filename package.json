@@ -5,10 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "client": "npm start --prefix ./client",
-    "dev": "concurrently \"yarn run server\" \"yarn run client\"",
     "server": "SET NODE_ENV=development && nodemon app.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false yarn install --prefix ./client && yarn run build --prefix ./client"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false yarn install --prefix client && yarn run build --prefix client"
   },
   "keywords": [],
   "author": "",
