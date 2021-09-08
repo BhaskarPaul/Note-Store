@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const showTodoAsync = () => async (dispatch, getState) => {
-  const response = await axios.get("http://localhost:3000/todos/");
+  const response = await axios.get("https://note-store.herokuapp.com/todos/");
   const data = await response.data;
   if (data !== []) dispatch(showTodo(data));
 };
