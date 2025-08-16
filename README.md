@@ -8,7 +8,7 @@
     🟢 `yarn install` <br />
     🟢 `yarn start && yarn --cwd ./client start` <br />
  
-📌 Use your own mongodb altas url to use this app.<br />
+📌 Use your mongodb altas url to use this app.<br />
 📌 Create a database named `noteStore` inside mongo atlas cluster. <br />
 📌 Create a `.env` file inside `server` folder. <br />\
     then add the following line:
